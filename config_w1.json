@@ -1,0 +1,14 @@
+{
+  "DESIGN_NAME": "rev_alu_w1",
+  "PDK": "sky130A",
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+  "VERILOG_FILES": ["dir::src/rev_alu.v", "dir::src/rev_alu_wrappers.v"],
+  "CLOCK_PORT": null,
+  "PNR_SDC_FILE": "dir::constraints.sdc",
+  "SIGNOFF_SDC_FILE": "dir::constraints.sdc",
+  "FP_SIZING": "absolute",
+  "DIE_AREA": [0, 0, 80, 80],
+  "PL_TARGET_DENSITY_PCT": 45,
+  "PDN_VPITCH": 40,
+  "PDN_HPITCH": 40
+}
